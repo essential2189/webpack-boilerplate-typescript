@@ -13,7 +13,7 @@ const config = {
   },
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "../server", "public"),
+    path: path.resolve(__dirname, "../server", "build", "public"),
     assetModuleFilename: "[name][ext][query]",
     clean: true,
   },

@@ -1,6 +1,6 @@
 {
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "dist", "public"],
+  "exclude": ["node_modules", "build"],
   "compilerOptions": {
     "target": "es5", // 'es3', 'es5', 'es2015', 'es2016', 'es2017','es2018', 'esnext' 가능
     "module": "commonjs", //무슨 import 문법 쓸건지 'commonjs', 'amd', 'es2015', 'esnext'
@@ -9,7 +9,7 @@
     "jsx": "react", // tsx 파일을 jsx로 어떻게 컴파일할 것인지 'preserve', 'react-native', 'react'
     "declaration": true, //컴파일시 .d.ts 파일도 자동으로 함께생성 (현재쓰는 모든 타입이 정의된 파일)
     //    "outFile": "./", //모든 ts파일을 js파일 하나로 컴파일해줌 (module이 none, amd, system일 때만 가능)
-    "outDir": "./dist", //js파일 아웃풋 경로바꾸기
+    "outDir": "./build", //js파일 아웃풋 경로바꾸기
     "rootDir": "./", //루트경로 바꾸기 (js 파일 아웃풋 경로에 영향줌)
     "removeComments": true, //컴파일시 주석제거
     "sourceMap": true, // webpack 디버깅시 오류 코드 위치 추적
