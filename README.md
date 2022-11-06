@@ -1,6 +1,10 @@
 # webpack-boilerplate-typescript
 tsconfig, eslint, webpack
 
+### 개발 디버깅
+client : `npm run watch`
+server : `npm run start`
+
 ### server
 `package.json`
 ```
